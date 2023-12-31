@@ -4,7 +4,7 @@
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #########################################################################
-# FIGURE X - Influence of husk cover condition on maize Flavi infection #
+# FIGURE 5 - Influence of husk cover condition on maize Flavi infection #
 #########################################################################
 library(ComplexHeatmap)
 library(gplots)
@@ -45,9 +45,9 @@ wilcox.test(Asp$huskOK, Asp$huskPoor, paired=TRUE)
 
 # No effect: P = 0.05906
 
-################################################################################
-# Influence of agronomic factors and weather variables on maize Flavi infection#
-################################################################################
+########################################################################################
+# Table 2 Influence of agronomic factors and weather variables on maize Flavi infection#
+########################################################################################
 
 # Soil Flavi:
 # ~~~~~~~~~~
@@ -95,9 +95,9 @@ pairwise.wilcox.test(x2, g, p.adjust.method = "bonf", paired = FALSE)
 #  S2 0.24097 0.82874 0.00417
 
 
-###################
-# FIGURE x (MDS) ##
-###################
+##############################
+# MULTI-DIMENSITONAL SCALING #
+##############################
 
 #NMDS - AGRONOMIC FACTORS ####
 # obtained as average of lowest Aspergillus sample then included all samples with  0's, finding the average.
@@ -137,6 +137,9 @@ fit<-envfit(mycobiomeMDS, mycobiome.mat)
 arrow<-data.frame(fit$vectors$arrows,R = fit$vectors$r, P = fit$vectors$pvals)
 arrow$Agronomic_Factors <- rownames(arrow)
 
+##Table 3 #######
+#################
+
 # Collect only significant (p < 0.05) predictors, irrespective of contribution value (R > 0):
 arrow.p<-filter(arrow, P < 0.05, R > 0)
 arrow.p
@@ -155,6 +158,8 @@ p <- ggplot(data=mycobiome.plot, aes(MDS1,MDS2)) + theme_classic() +
 
 set.seed(2023) # for reproducible diagram
 
+## Figure 6 #####
+###eeeeeeeeeeee##
 
 p + theme(legend.position = "right", text = element_text(size = 12), axis.title = element_text(size = 13),
           axis.text = element_text(size = 10)) +
