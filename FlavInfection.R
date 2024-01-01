@@ -100,7 +100,8 @@ pairwise.wilcox.test(x2, g, p.adjust.method = "bonf", paired = FALSE)
 ##############################
 
 #NMDS - AGRONOMIC FACTORS ####
-# obtained as average of lowest Aspergillus sample then included all samples with  0's, finding the average.
+# Obtained CFU/g limit of detection to replace zeroes.
+# Obtain this as average of lowest Flavi CFU/g sample then included all samples with  0's, and find the average.
 # NB: In this work, we set LOD for Flavi at 0,1520 CFU/g kernels.
 
 mycobiome <- read.csv2("C:/Users/bkatati/OneDrive_WUR_2023/ACADEMIC/Thesis/Publications/Github/Flavinfection/post/MDS_Flav.csv")
