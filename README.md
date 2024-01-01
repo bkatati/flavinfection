@@ -1,7 +1,7 @@
 # Title: Husk Cover Condition of Preharvest Maize is not a Predictor for _Aspergillus_ Infection
 -----------------------------
 
-i) The R file "FlavInfection.R" is run code for statistical analysis in R of the csv files that contain Flavi and aflatoxin values for soil and/or maize.
+i) The R file "FlavInfection.R" is run code for statistical analysis in R of the csv files that contain Flavi and aflatoxin raw values for soil and/or maize.
 
 ii) 'csv' file "Soil&Maize_Flav.csv" contains relative abundance of Flavi in soil and on maize ears of different husk cover conditions. Futhermore, it contains the aflatoxin levels in maize kernels of different conditions (poor and clean seed). 
 Important!!!: Values indicated as '-0.01' indicate experiment not done for that variable.
