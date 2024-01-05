@@ -3,11 +3,11 @@
 
 USAGE NOTES:
 
-i) FlavInfection.R
+i) - FlavInfection.R
 
 is run code for statistical analysis in R of the csv files that contain Flavi and aflatoxin raw values for soil and/or maize.
 
-ii) Soil&Maize_Flav.csv
+ii) - Soil&Maize_Flav.csv
 
 contains relative abundance of Flavi in soil and on maize ears of different husk cover conditions. Futhermore, it contains the aflatoxin levels in maize kernels of different conditions (poor and clean seed). 
 Important!!!: Values indicated as '-0.01' indicate experiment not done for that variable.
@@ -45,7 +45,7 @@ o) lnAF_clean = ng/g total aflatoxin in clean grain, natural logarithm.
 
 p) lnAF_poor = ng/g total aflatoxin in poor grain, natural logarithm.
 
-iii) Questionnaire_dataframe
+iii) - Questionnaire_dataframe
 
 contains the questionnaire matrix and dataframe for the agronomic factors that have potential influence on Aspergillus section Flavi relative abundance.
 
