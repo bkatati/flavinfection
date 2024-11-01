@@ -212,7 +212,7 @@ arrow$Agronomic_Factors <- rownames(arrow)
 arrow.p<-filter(arrow, P < 0.05, R > 0)
 arrow.p
 
-# Note3: you may write arrow values (P-values and R-sq):
+# Note: you may write arrow values (P-values and R-sq):
 # write.csv2(arrow.p, file = ("your path/filename.csv"), row.names = F)
 
 set.seed(10) # run each time for reproducible coordinates
