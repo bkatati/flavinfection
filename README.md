@@ -1,11 +1,13 @@
 # Title: Dry Preharvest Conditions are a Better Predictor for _Aspergillus_ section _Flavi_ Infection of Maize than Husk Cover Condition
 -----------------------------
 
-USAGE NOTES:
+Supporting files to manuscript:
 
-i) The R file "Infection" is run code for statistical analysis in base R of the csv files that contain Flavi and aflatoxin values for soil and/or maize. Code also provides visualisation of some of the data.
+# *1) "Infection.R"* # 
+is run code for statistical analysis in base R of the csv files that contain Flavi and aflatoxin values for soil and/or maize. Code also provides visualisation of some of the data.
 
-ii) The csv files "Soil&Maize_Flav_seas1" and "Soil&Maize_Flav_seas2" contain relative abundance of Flavi in soil and on maize ears of different husk cover conditions, as wel as aflatoxin levels in maize kernels of different conditions (poor and clean seed). 
+# *2) "Soil&Maize_Flav_seas1.csv" / "Soil&Maize_Flav_seas2.csv"* # 
+contain relative abundance of Flavi in soil and on maize ears of different husk cover conditions, as wel as aflatoxin levels in maize kernels of different conditions (poor and clean seed). 
 Values are measured as follows per column:
 
 a] Weather_var = S1 (low rain with dry spell, 2018/2019 season); N1 (high rain 2018/2019 season); S2 (low rain, 2020/2021 season); N2 (high rain 2020/2021 season).
@@ -40,10 +42,13 @@ o) lnAF_clean = ng/g total aflatoxin in clean grain, natural logarithm.
 
 p) lnAF_poor = ng/g total aflatoxin in poor grain, natural logarithm.
 
-iii) The csv file "Soil&Maize_Flav" is combination of the above two csv files in (ii) and is used in the pairwise Wilcoxon test over season1 (2018/2019) and season 2 (2020/2021).
+# *3) "Soil&Maize_Flav.csv"* #
+is derived from the two csv files in (2) and is used in the pairwise Wilcoxon test over season1 (2018/2019) and season 2 (2020/2021).
 
-iv) Excel file "Questionnaire_dataframe" contains the questionnaire matrix and dataframe for the agronomic factors that have potential influence on Aspergillus section Flavi relative abundance on maize ears.
+# *4) "Questionnaire_dataframe.xlsx"* #
+contains the questionnaire matrix and dataframe for the agronomic factors that have potential influence on Aspergillus section Flavi relative abundance on maize ears.
 
-v) The csv file "MDS_Flav" is dataframe for agronomic factors and weather variables with potential influence on Aspergillus section Flavi quantities (CFU/g) on maize and has been derived from step ‘iv.’
+# *5) "MDS_Flav.csv"* #
+is dataframe of agronomic factors and weather variables with potential influence on Aspergillus section Flavi quantities (CFU/g) on maize and has been derived from step (4).
 
 
