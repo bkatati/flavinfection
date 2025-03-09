@@ -10,7 +10,7 @@ is run code for statistical analysis in base R of the csv files that contain _Fl
 
 # *2) "Soil&Maize_Flav_seas1.csv" / "Soil&Maize_Flav_seas2.csv"* # 
 contain relative abundance of Flavi in soil and on maize ears of different husk cover conditions, as wel as aflatoxin levels in maize kernels of different conditions (poor and clean seed). 
-Values are measured as follows per column:
+Values are scaled as follows per column:
 
 a] Weather_var = S1 (low rain with dry spell, 2018/2019 season); N1 (high rain 2018/2019 season); S2 (low rain, 2020/2021 season); N2 (high rain 2020/2021 season).
 
