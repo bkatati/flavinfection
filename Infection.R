@@ -1,6 +1,6 @@
 ######################
 # Manuscript Title:
-# Dry Preharvest Conditions are a Better Predictor for Aspergillus section Flavi Infection of Maize than Husk Cover Condition
+# Title: Does Maize Ear Husk Cover Inadequacy at Harvest Construe a Correlation with Aspergillus section Flavi Infection as Dry Spell Would?
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ###############################################################################################################
