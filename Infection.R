@@ -10,7 +10,6 @@ library(ComplexHeatmap)
 library(gplots)
 # Season1: 2018/2019 .
 seas1 <- read.csv(url("https://github.com/bkatati/flavinfection/Soil&Maize_Flav_seas1.csv"))
-# seas1 <- read.csv("C:/Users/bkatati/OneDrive_WUR_2023/ACADEMIC/Thesis/Publications/Github/flavinfection/Soil&Maize_Flav_seas1.csv")
 # NB: if file path error occurs, download csv file "Soil&Maize_Flav_seas1.csv" from site "https://github.com/bkatati/flavinfection" 
 # On your PC, create appropriate local drive path and change above file path to local drive.
 
