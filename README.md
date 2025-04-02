@@ -45,7 +45,7 @@ o) lnAF_good = ng/g total aflatoxin in clean grain, natural logarithm.
 p) lnAF_poor = ng/g total aflatoxin in poor grain, natural logarithm.
 
 # *3) "Soil&Maize_Flav.csv"* #
-is derived from the two csv files in (2) and is used in the pairwise Wilcoxon test over season1 (2018/2019) and season 2 (2020/2021).
+is derived from the two csv files in (2) and is used in the pairwise Wilcoxon test for maize as well as soil _Flavi_ densities (CFU/g) across the weather variables S1, N1, S2 and N2.
 
 # *4) "Questionnaire_dataframe.xlsx"* #
 contains the questionnaire matrix and dataframe for the agronomic factors that have potential influence on _Aspergillus_ section _Flavi_ relative abundance on maize ears.
