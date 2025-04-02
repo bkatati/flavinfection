@@ -115,7 +115,7 @@ shapiro.test(diffS)
 # ------------------
 
 # Combined season 1 and 2:
-data <- read.csv2(url("https://github.com/bkatati/flavinfection/Soil&Maize_Flav.csv"))
+data <- read.csv(url("https://github.com/bkatati/flavinfection/Soil&Maize_Flav.csv"))
 # NB: if file path error occurs, download csv file "Soil&Maize_Flav.csv" from site "https://github.com/bkatati/flavinfection" 
 # On your PC, create appropriate local drive path and change above file path to local drive.
 
@@ -261,7 +261,7 @@ exp(mean(seas1$lnAF_clean[AFL]))
 ########################################################################################
 # Supplemental Table S3: Effect of Husk Condition on visible fungi incidence, season-2##
 ########################################################################################
-Fungal <- read.csv("C:/Users/bkatati/OneDrive_WUR_2023/ACADEMIC/Thesis/Publications/Github/flavinfection/Husk_fungal.csv")
+Fungal <- read.csv(url("https://github.com/bkatati/flavinfection/Husk_fungal.csv"))
 dim(Fungal)
 head(Fungal)
 
