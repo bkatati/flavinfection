@@ -4,7 +4,7 @@
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ###############################################################################################################
-# FIGURE 3A - Influence of Grain Condition on Aflatoxin Contamination on Tight Husk Ears, Season1 (2018/2019) #
+# FIGURE 3A - Influence of Grain Condition on Aflatoxin Contamination on Full-cover Husk Ears, Season1 (2018/2019) #
 ###############################################################################################################
 library(ComplexHeatmap)
 library(gplots)
@@ -140,7 +140,7 @@ pairwise.wilcox.test(x1, g, p.adjust.method = "bonf", paired = FALSE)
 # N2 had more soil flavi density (CFU/g) than S1 and S2.
 
 ################################################################
-## T-test for Aspergillus section Flavi in (Tight Husk ears) ###
+## T-test for Aspergillus section Flavi in (Full-cover Husk ears) ###
 ################################################################
 
 # Maize Flavi
