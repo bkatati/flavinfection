@@ -3,10 +3,10 @@
 
 Supporting files to manuscript:
 
-DOI: 
+DOI: 10.1163/18750796-bja10023
 
 # *1) "Infection.R"* # 
-is run code, in base R, for statistical analysis in base R of the csv files that contain _Aspergillus_ section _Flavi_ (hereafter called _Flavi_ ) and aflatoxin values for soil and/or maize. Code also provides visualisation of some of the data.
+is run code, in base R, for statistical analysis of the csv files that contain _Aspergillus_ section _Flavi_ (hereafter called _Flavi_ ) and aflatoxin values for soil and/or maize. Code also provides visualisation of some of the data.
 
 # *2) "Soil&Maize_Flav_seas1.csv" / "Soil&Maize_Flav_seas2.csv"* # 
 contain relative abundance of Flavi in soil and on maize ears of different husk cover conditions, as wel as aflatoxin levels in maize kernels of different conditions (poor and clean seed). 
