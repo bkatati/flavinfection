@@ -202,7 +202,7 @@ arrow<-data.frame(fit$vectors$arrows,R = fit$vectors$r, P = fit$vectors$pvals)
 arrow$Agronomic_Factors <- rownames(arrow)
 
 ###############################################################################
-##Table 3 - Agronomic factors linked to preharvest maize Flavi proliferation###
+##Table 1 - Agronomic factors linked to preharvest maize Flavi proliferation###
 ###############################################################################
 
 # Collect only significant (p < 0.05) predictors, irrespective of contribution value (R > 0):
@@ -259,7 +259,7 @@ exp(mean(seas1$lnAF_clean[AFL]))
 # Poor seed had significantly higher aflatoxin geometric mean (11.2 ug/kg) than clean seed (2.3 ug/kg).
 
 ########################################################################################
-# Supplemental Table S3: Effect of Husk Condition on visible fungi incidence, season-2##
+# Supplemental Table S2: Effect of Husk Condition on visible fungi incidence, season-2##
 ########################################################################################
 Fungal <- read.csv(url("https://github.com/bkatati/flavinfection/Husk_fungal.csv"))
 dim(Fungal)
