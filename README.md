@@ -54,4 +54,4 @@ contains the questionnaire matrix and dataframe for the agronomic factors that h
 is dataframe of agronomic factors and weather variables with potential influence on _Aspergillus_ section _Flavi_ quantities (CFU/g) on maize and has been derived from step (4).
 
 # *6) "Husk_fungal.csv"* #
-is csv file for paired assessment of full-husk cover and inadequate husk cover ear effect on eye-visible fungal incidence, under season-2 (2020/2021 maize growth season) (supplemental Table S3).
+is csv file for paired assessment of full-husk cover and inadequate husk cover ear effect on eye-visible fungal incidence, under season-2 (2020/2021 maize growth season) (supplemental Table S2).
